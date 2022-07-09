@@ -14,7 +14,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -23,9 +23,9 @@
     <div class="team_container">
         <div class="team_pro_holder">
 
-            <div class="team_member_holder" id = "judge1" onclick="showDetails(this)">
+            <div class="team_member_holder" id="judge1" onclick="showDetails(this)">
                 <img src="src/face1.jpg" alt="">
-                <p class="team_heading">Judge Name</p>
+                <p class="team_heading" id = "getJudge1">Judge Name 1</p>
                 <p class="team_text">Judge Title</p>
                 <div class="team_icon_set">
                     <div class="team_social_media">
@@ -36,9 +36,9 @@
                     <div class="team_readmore_holder"><i class="fa-solid fa-circle-chevron-down"></i></div>
                 </div>
             </div>
-            <div class="team_member_holder" id = "judge2" onclick="showDetails(this)">
+            <div class="team_member_holder" id="judge2" onclick="showDetails(this)">
                 <img src="src/face2.png" alt="">
-                <p class="team_heading">Judge Name</p>
+                <p class="team_heading" id="getJudge2">Judge Name</p>
                 <p class="team_text">Judge Title</p>
                 <div class="team_icon_set">
                     <div class="team_social_media">
@@ -49,9 +49,9 @@
                     <div class="team_readmore_holder"><i class="fa-solid fa-circle-chevron-down"></i></div>
                 </div>
             </div>
-            <div class="team_member_holder" id = "judge3" onclick="showDetails(this)">
+            <div class="team_member_holder" id="judge3" onclick="showDetails(this)">
                 <img src="src/face3.png" alt="">
-                <p class="team_heading">Judge Name</p>
+                <p class="team_heading" id="getJudge3">Judge Name</p>
                 <p class="team_text">Judge Title</p>
                 <div class="team_icon_set">
                     <div class="team_social_media">
@@ -62,9 +62,9 @@
                     <div class="team_readmore_holder"><i class="fa-solid fa-circle-chevron-down"></i></div>
                 </div>
             </div>
-            <div class="team_member_holder" id = "judge4" onclick="showDetails(this)">
+            <div class="team_member_holder" id="judge4" onclick="showDetails(this)">
                 <img src="src/face1.jpg" alt="">
-                <p class="team_heading">Judge Name</p>
+                <p class="team_heading" id="getJudge4">Judge Name</p>
                 <p class="team_text">Judge Title</p>
                 <div class="team_icon_set">
                     <div class="team_social_media">
@@ -82,20 +82,20 @@
     <div class="popup" role="alert">
         <div class="popup-container">
             <a href="#" class="popup-close img-replace">Close</a>
-            
+
             <div class="profile_container">
                 <div class="profile_section_1">
                     <div class="profile_img_holder">
                         <img src="src/face1.jpg" alt="">
                     </div>
                     <div class="profile_caption_holder">
-                        <p class="profile_caption_heading">
+                        <p class="profile_caption_heading" id="judge_name">
                             Lorem, ipsum dolor.
                         </p>
-                        <p class="profile_caption_body">
+                        <p class="profile_caption_body" id="judge_title1">
                             Lorem ipsum dolor sit.
                         </p>
-                        <p class="profile_caption_body">
+                        <p class="profile_caption_body" id="judge_title2">
                             Lorem ipsum dolor sit amet.
                         </p>
                         <div class="social_media_holder">
@@ -106,8 +106,11 @@
                     </div>
                 </div>
                 <div class="profile_section_2">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum tenetur praesentium tempore voluptatum
-                        odit, ratione repudiandae impedit itaque, eos dolorum aliquid molestiae, quibusdam inventore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo perferendis, officia quasi molestias temporibus deserunt iusto cum optio assumenda.</p>
+                    <p id="judge_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum tenetur praesentium tempore
+                        voluptatum
+                        odit, ratione repudiandae impedit itaque, eos dolorum aliquid molestiae, quibusdam inventore
+                        culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo perferendis,
+                        officia quasi molestias temporibus deserunt iusto cum optio assumenda.</p>
                 </div>
             </div>
 

@@ -20,20 +20,33 @@ jQuery(document).ready(function ($) {
     });
 });
 
+
+function setDetails(name,title1,title2,desc,url){
+    document.getElementById("judge_name").innerText = name;
+    document.getElementById("judge_title1").innerText = title1;
+    document.getElementById("judge_title2").innerText = title2;
+    document.getElementById("judge_desc").innerText = desc;
+    // document.getElementById("judge_").innerText = name;
+}
+
 function showDetails(event) {
 
     switch (event) {
         case document.getElementById("judge1"):
-            document.getElementById("judge_name").innerText = "Judge 1";
+            var desc = "Judge 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+            setDetails("Judge 1 name", "Professor", "WUSL", desc, "test");
             break;
         case document.getElementById("judge2"):
-            document.getElementById("judge_name").innerText = "Judge 2";
+            var desc = "Judge 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+            setDetails("Judge 2 name", "2 - Professor", "2WUSL", desc, "test");
             break;
         case document.getElementById("judge3"):
-            document.getElementById("judge_name").innerText = "Judge 3";
+            var desc = "Judge 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+            setDetails("Judge 3 name", "3Professor", "3WUSL", desc, "test");
             break;
         case document.getElementById("judge4"):
-            document.getElementById("judge_name").innerText = "Judge 4";
+            var desc = "Judge 4 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+            setDetails("Judge 4 name", "4Professor", "4WUSL", desc, "test");
             break;
     }
 }

@@ -49,10 +49,11 @@
     margin: 0;
     margin-top: 10px;
     color: #383644;
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
     width: 90%;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lato', sans-serif;
 }
 
 .team_text {
@@ -62,7 +63,8 @@
     color: #b1b1b3;
     width: 90%;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 
 }
@@ -114,9 +116,11 @@
 }
 
 .profile_caption_heading {
-    font-size: 1.75rem;
+    font-size: 1.50rem;
     margin: 10px 0;
     margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
 
 .profile_caption_body {
@@ -125,6 +129,8 @@
     padding: 0;
     margin: 0;
     margin-bottom:10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .social_media_holder {
@@ -143,6 +149,8 @@
     font-size: 1.15rem;
     text-align: justify;
     color: darkgray;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .popup-container {
